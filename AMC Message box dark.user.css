@@ -1,0 +1,12 @@
+/*
+==UserCSS==
+@name             AMC Message box dark
+@match            *://amc.cloud.infor.com/*
+@version          1.0
+==/UserCSS==
+*/
+
+
+.ui-dialog, .ui-widget, .ui-widget-content {
+  background-color: #333 !important;
+}

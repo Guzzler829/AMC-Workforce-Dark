@@ -1,0 +1,12 @@
+/*
+==UserCSS==
+@name             AMC Dark timesheet day
+@match            *://amc.cloud.infor.com/etm/time/timesheet/etmTnsDay.jsp*
+@version          1.0
+==/UserCSS==
+*/
+
+#etmScheduleTable, .calendarColWeekend, .calendarCurrentDay, tr {
+  background-color: #333 !important;
+
+}

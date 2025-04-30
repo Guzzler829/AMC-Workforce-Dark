@@ -1,0 +1,36 @@
+/*
+==UserCSS==
+@name             AMC Dark mode
+@match            *://amc.cloud.infor.com/*
+@version          1.0
+==/UserCSS==
+*/
+
+* {
+  color: white !important;
+}
+
+body {
+  background-color: #222;
+}
+
+#wrapper, #home-body, #etmMenuFooter {
+  background-color: #222;
+}
+
+#header {
+  background-color: #222;
+}
+
+.nav {
+  background-color: #111;
+}
+
+.sf-menu > li > a {
+  color: white;
+  background-color: #111;
+}
+
+.sf-menu > li.active > a {
+  background-color: #333;
+}

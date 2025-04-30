@@ -1,0 +1,26 @@
+/*
+==UserCSS==
+@name             AMC Dark message read css
+@match            *://amc.cloud.infor.com/etm/messaging/etmMsgRead.jsp*
+@version          1.0
+==/UserCSS==
+*/
+
+#MsgBody, #msgContent {
+  background-color: #111;
+}
+
+.etmComposeReadMessageTable, .fieldLabel, .datarowContentLarge, .etmComposeReadMessageTableHeader {
+  background-color: #333;
+}
+
+.MSGinputBoxReadOnly, .MSGReadDate {
+  background-color: #444;
+
+}
+
+input[type="text"] {
+  border: 1px solid #888 !important;
+  box-shadow: none;
+  border-radius: 0;
+}

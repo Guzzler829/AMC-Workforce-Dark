@@ -1,0 +1,92 @@
+/*
+==UserCSS==
+@name             AMC Availability dark
+@match            *://amc.cloud.infor.com/availability/action*
+@version          1.0
+==/UserCSS==
+*/
+
+#availMatrix {
+  background-color: #161616;
+}
+
+#availMatrix > thead > tr > th {
+  background-color: #333 !important;
+  border-bottom: 1px solid #666;
+}
+
+#availMatrix > tbody > tr > td {
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+
+#availMatrix > tbody > tr > td.columnHeader {
+  background-color: #282828;
+}
+
+.etmTableFooter {
+  background-color: #333 !important;
+  border-top: 1px solid #666;
+}
+
+
+.boldedLabelColHead {
+  background-color: #282828;
+}
+
+span.availCrossesMidnightIcon {
+  background: url("https://i.imgur.com/uTCuubZ.png") !important;
+}
+
+.inputField {
+  background-color: #444;
+  border: 1px solid #666;
+  box-shadow: none;
+  padding: 2px;
+}
+
+li.active {
+  background-color: #555 !important;
+}
+
+#datepickerDiv, div.ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
+  background-color: #333 !important;
+  background: none;
+  border: none;
+}
+
+.ui-datepicker-calendar {
+  background-color: #555 !important;
+
+
+}
+
+
+
+.ui-datepicker-header {
+  background-color: #555 !important;
+  border: none !important;
+  margin-bottom: 6px;
+
+
+}
+
+.ui-datepicker-month, .ui-datepicker-year {
+  background-color: #444 !important;
+  box-shadow: none;
+
+}
+
+/* THIS SHIT SUUUUUUUUCKKKKSSSS HOLY HELL */
+
+td:has(a.ui-state-default) {
+  background: #333 url("https://i.imgur.com/UdMFmKd.png") !important;
+  background-color: #333 !important;
+
+
+}
+
+.ui-state-default {
+  background-color: #333 !important;
+
+}

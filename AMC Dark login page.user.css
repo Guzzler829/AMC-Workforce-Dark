@@ -1,0 +1,16 @@
+/*
+==UserCSS==
+@name             AMC Dark login page
+@match            *://amc.cloud.infor.com/etm/login.jsp*
+@version          1.0
+==/UserCSS==
+*/
+
+body {
+  background-color: #000 !important;
+}
+
+#inforSignInDialog, #inforLoginWrappingDiv, #pageStatusBox, .inforApplicationName {
+  background-color: #111  !important;
+  background-image: none;
+}

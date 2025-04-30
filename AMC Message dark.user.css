@@ -1,0 +1,17 @@
+/*
+==UserCSS==
+@name             AMC Message dark
+@match            *://amc.cloud.infor.com/etm/messaging*
+@version          1.0
+==/UserCSS==
+*/
+
+#formParent,
+#Rectangle1,
+.contentTable,
+.bodyRow,
+.bodyRow > th,
+.contentTable > tbody > tr > th,
+.contentTable > tbody > tr > td {
+  background-color: #333 !important;
+}

@@ -1,0 +1,41 @@
+/*
+==UserCSS==
+@name             AMC Dark self schedule CSS
+@match            *://amc.cloud.infor.com/etm/time/timesheet/etmTnsMonth.jsp*
+@version          1.0
+==/UserCSS==
+*/
+
+.calWeekDayHeader {
+  background-color: #444;
+}
+
+.calTD-OutOfScope {
+  background-color: #222;
+}
+
+.calTD-NoShift {
+  background-color: #333 !important;
+}
+
+.calendarCellRegularPast, .calendarCellRegularFuture {
+  background-color: #222;
+}
+
+
+.calTD-NoShift, .calendarCellRegularPast, .etmNoBorder, .calendarCellRegularFuture {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  font-weight: bold;
+  color: #555 !important;
+  padding: 4px;
+}
+
+span.calendarDateNormal {
+  font-size: 1.2rem;
+  margin: 4px;
+}
+
+.calendarCellRegularCurrent {
+  background-color: #3333aa;
+}

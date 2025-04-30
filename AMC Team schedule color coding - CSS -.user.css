@@ -1,0 +1,105 @@
+/*
+==UserCSS==
+@name             AMC Team schedule color coding - CSS -
+@match            *://amc.cloud.infor.com/etm/time/timesheet/etmTnsTeam.jsp*
+@version          1.0
+==/UserCSS==
+*/
+
+.wfm-page-form {
+  background-color: #111;
+}
+
+.nav2 {
+  border-bottom: 1px solid #333;
+  background-color: #222;
+}
+
+.nav2 > ul > li {
+  background-color: #222;
+}
+
+.nav2 > ul > li.active {
+  background-color: #333;
+}
+
+#htmlHeaderTable {
+  background-color: #111;
+}
+
+#scrollContainer {
+  background-color: #111;
+}
+
+.etmTsEmpDisplay {
+  background-color: #444;
+  border: 1px solid #222 !important;
+}
+
+.etmTsCell {
+  background-color: #333;
+  border: 1px solid #222 !important;
+
+}
+
+#htmlButtonFooter {
+  background-color: #222;
+}
+
+.calWeekDayHeader {
+  background-color: #444;
+  border: 1px solid #222 !important;
+  border-radius: 0 !important;
+}
+
+td.calendarCurrentDay, .etmCell {
+  background-color: #555;
+  border: 1px solid #222 !important;
+  border-radius: 0 !important;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+span.calendarCurrentDay {
+  font-size: 0.8rem;
+  font-weight: normal;
+  font-weight: normal;
+}
+
+.listContainer {
+  height: 30px;
+  margin: 12px;
+  margin-top: 0;
+}
+
+.listContainer.open {
+  height: auto;
+}
+
+.new-table-cell {
+  border: 1px solid #666;
+  padding: 0 6px;
+  background-color: #333;
+}
+
+.etmTitleTable {
+  margin: 0;
+  padding: 0;
+  opacity: 0.5;
+
+}
+
+.htmlButtonTable {
+  padding: 0;
+  margin: 0;
+}
+
+.team-label {
+  text-decoration: underline;
+}
+
+.tables-container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+}

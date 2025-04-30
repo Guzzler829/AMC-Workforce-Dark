@@ -1,0 +1,27 @@
+/*
+==UserCSS==
+@name             AMC Dark messages page
+@match            *://amc.cloud.infor.com/etm/messaging/etmMsgList.jsp*
+@version          1.0
+==/UserCSS==
+*/
+
+.etmMessageTable {
+  background-color: #222;
+}
+
+.etmTableHeader {
+  background-color: #333;
+}
+
+table.etmMessageTable > tbody > tr > td {
+  border-bottom: 1px solid #444;
+}
+
+table.etmMessageTable > tbody > tr > td:not(th) {
+  border-top: 1px solid #444;
+}
+
+.etmTableFooter {
+  background-color: #222;
+}
